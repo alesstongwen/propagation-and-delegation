@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start
+}
+
+.minibox {
+  width: 9vw;
+  height: 9vh;
+  border-radius: 1vw / 1vh;
+  margin: 0.5vh 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.minibox.new {
+  background-color: green;
+}
+
+.minibox.old {
+  background-color: tan;
+}
